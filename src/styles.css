@@ -1,0 +1,105 @@
+.area{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+h1{ margin-top: 20px;
+    font-size: 48px;
+}
+h2{
+    font-size: 80px;
+}
+h3{
+    font-size: 26px;
+    opacity: 0.7;
+}
+.small-caps{
+    font-size:small;
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+    
+}
+
+:root{
+    --primary-color:#8ddbf4;
+    --box-shadow: 0px 5px 10px #a2a4aa;
+    --secondary-color:#F5F2FE;
+}
+.contact{
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding:20px;
+    color:white;
+    box-shadow: var(--box-shadow);
+    margin-right:15px;
+
+}
+
+.about{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 20px;
+    border-radius: 5px;
+    margin-left:15px;
+    }
+a{text-decoration:none;}
+
+.paragraph{
+border:1px solid var(--secondary-color);
+background-color: var(--secondary-color);
+border-radius: 5px;
+font-size: 18px;
+max-width: 50%;
+display: block;
+margin: 0 auto;
+padding:30px;
+}
+
+.secret{
+    font-size:30px;
+    font-weight: bold;
+
+}
+#email-contact{
+    font-size: 48px;
+    text-align:center;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.email{
+    font-size: 20px;
+}
+.heading{
+    text-align:center
+}
+.link-style{
+    text-align: center;
+    text-decoration: underline;
+}
+.container{
+    margin-top: 35px;
+}
+#about-images{
+    width:350px;
+    height:280px;
+    border: 15px solid #F9F7FE;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.15)
+}
+
+#index-images{
+    height: 260px;
+    width:600px;
+    border: 25px solid #F9F7FE;
+    border-radius: 10px;
+}
+#cards{
+    margin-top: 20px;
+}
+   
+    
